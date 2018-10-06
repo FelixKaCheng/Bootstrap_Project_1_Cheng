@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">Contact Me</a>
+
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Go to Another Page
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="Project3home.html">Home</a>
+            <a class="dropdown-item " href="aboutme.html">About me</a>
+            <a class="dropdown-item " href="programmingskills.html">Technical Skills</a>
+            <a class="dropdown-item" href="experience.html">Experience</a>
+            <a class="dropdown-item" href="education.html">Education</a>
+            <a class="dropdown-item active" href="contact.html">Contact</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+<h3 class="text-center"> Here is how to contact me:</h3>
+<br/>
+<div class="container text-center">
+  <a href="#" title="kacheng148@gmail.com" data-toggle="popover" data-trigger="hover" data-content="Some content">Hover for my email</a>
+</div>
+
+<br/>
+<br/>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+});
+</script>
+
+<div class="container text-center">
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#myModal">
+    Open for additional information
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">If you want to hire me, please contact me.</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+You can also send me an email if you have any questions. </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<br/>
+<br/>
+
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#"></a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="Project3home.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutme.html">About me</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="programmingskills.html">Technical Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="experience.html">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="education.html">Education</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+  </body>
+</html>
